@@ -1,0 +1,34 @@
+name: hsdoor_app
+description: Hackerspace Maringá Door Access App.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  flutter_bloc: ^7.0.1
+  bloc: ^7.0.0
+  dio: ^4.0.0
+  uuid: ^3.0.4
+  google_fonts: ^2.1.0
+  qr_flutter: ^4.0.0
+  qr_code_scanner: ^0.5.1
+  flutter_secure_storage: ^4.2.0
+  flutter_modular: ^3.3.0
+
+  didkit:
+    path: ../didkit/lib/flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
